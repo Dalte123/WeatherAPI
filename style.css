@@ -6,3 +6,9 @@
     background-position: center;
     background-size: contain;
   }
+
+  input[type = text]{
+    
+    font-size: 1.4em;
+  
+  }
