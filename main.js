@@ -5,13 +5,12 @@ const response = await fetch(url);
 const data = await response.json();
 const{resolvedAddress , timezone} = data;
 const{currentConditions: {datetime ,temp,feelslike,humidity,icon }} = data;
-var time = new Date();
+let time = new Date();
 let localTime = time.toLocaleString();
 console.log(localTime);
 document.getElementById('ra').textContent = resolvedAddress;
 document.getElementById('tz').textContent = timezone;
 document.getElementById('dt').textContent = localTime;
-
 document.getElementById('tmp').textContent = Math.round(temp);
 document.getElementById('fl').textContent = feelslike;
 document.getElementById('hu').textContent = humidity;
