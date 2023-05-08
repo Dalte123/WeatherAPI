@@ -1,14 +1,63 @@
-.weather-icon {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-  }
 
-  input[type = text]{
-    
-    font-size: 1.4em;
+input[type="text"] {
+  font-size: 1.4em;
+}
+
+body {
+  background-image: url(/icons/2560x1440-abstract-4k_1616870926.jpg);
+  background-size:200%
+}
+
+.buttpn {
+  text-align: center;
+  text-align: center;
+  color: aliceblue;
+}
+
+.details {
+  text-align: center;
+  text-align: center;
+  color: aliceblue;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   
-  }
+}
+.header {
+  text-align: center;
+  text-align: center;
+  color: aliceblue;
+}
+
+.search {
+  padding-top: 0%;
+  text-align: center;
+  color: aliceblue;
+}
+
+.temp {
+  padding-top: 0%;
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
+  color: aliceblue;
+  
+}
+
+.loc {
+  padding-top: 2.5%;
+  text-align: center;
+
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  text-align: center;
+  color: aliceblue;
+  
+}
+.icons{
+  text-align: center;
+  text-align: center;
+  color: aliceblue;
+  size: 4px;
+}

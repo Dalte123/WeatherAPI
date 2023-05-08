@@ -8,19 +8,36 @@
     <title>Weather App</title>
   </head>
   <body>
-    <h1>Weather</h1>
-    <label for="cityNameInput">City Name:</label>
-    <input type="text" id="cityNameInput" />
-    <button id="submitButton">Submit</button>
+    
+    <div class="search">
 
-    <p>
-      Temperature: <span id="tmp"></span><br />
+   
+    <label class="search" for="cityNameInput"></label>
+    <input type="text" id="cityNameInput"  placeholder="Enter city here"/>
+    <button  id="submitButton">Submit</button>
+  </div>
+  <div class="loc">
+  Location: <span id="ra"></span><br />
+  </div>
+  
+  <div class="temp">
+  <span id="tmp"></span> 
+  </div>
+  
+  
+  <div class="icons">
+  <img id="icons" src="icons/" class="buttpn" />
+</div>
+  <p class="details">
+     
+      
       Time: <span id="dt"></span><br />
       TimeZone: <span id="tz"></span><br />
-      Location: <span id="ra"></span><br />
+    
       Feelslike: <span id="fl"></span><br />
       Humidity: <span id="hu"></span><br />
-      <img id="icons" src="icons/"/>
+     
+      <br>
     </p>
 
     <script src="main.js"></script>
