@@ -60,4 +60,7 @@ body {
   text-align: center;
   color: aliceblue;
   size: 4px;
+  filter: opacity(100) drop-shadow(0 0 0 white);
+
+
 }
