@@ -8,7 +8,7 @@ function storeCityName() {
 let baseUrl =
   "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/";
 let apiKey = "8VR9LVRJ98L7WMQ6U3Q5FRLDK";
-let defaultCity = "new york";
+let defaultCity = "ottawa";
 
 async function getData(cityName) {
   let url = `${baseUrl}${cityName}?unitGroup=metric&key=${apiKey}&contentType=json`;
